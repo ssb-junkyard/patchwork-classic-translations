@@ -1,6 +1,6 @@
 {
   "name": "patchwork-translations",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Localized text for Patchwork and Patchkit",
   "main": "index.js",
   "keywords": [
@@ -16,7 +16,7 @@
   },
   "bugs": "https://github.com/ssbc/patchwork-translations/issues",
   "homepage": "https://github.com/ssbc/patchwork-translations#readme",
-    "repository": {
+  "repository": {
     "type": "git",
     "url": "git+https://github.com/ssbc/patchwork-translations.git"
   }
