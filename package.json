@@ -1,0 +1,23 @@
+{
+  "name": "patchwork-translations",
+  "version": "1.0.0",
+  "description": "Localized text for Patchwork and Patchkit",
+  "main": "index.js",
+  "keywords": [
+    "patchkit",
+    "patchwork",
+    "i18n"
+  ],
+  "author": "Secure Scuttlebutt Consortium (https://ssbc.github.io/)",
+  "license": "GPL-3.0+",
+  "dependencies": {
+    "moment": "^2.13.0",
+    "node-polyglot": "^2.0.0"
+  },
+  "bugs": "https://github.com/ssbc/patchwork-translations/issues",
+  "homepage": "https://github.com/ssbc/patchwork-translations#readme",
+    "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ssbc/patchwork-translations.git"
+  }
+}
