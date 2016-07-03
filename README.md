@@ -37,7 +37,7 @@ section/group.
 
 ## Contributing
 
-Copy [./locales/en.json][] to a new file for your locale, and then replace all
+Copy [locales/en.json](locales/en.json) to a new file for your locale, and then replace all
 the strings on the right with localized ones. If some phrases are unclear and
 you need more context, post about it in Patchwork. If you find something
 that can't be accurately translated given the way the phrases are structured,
