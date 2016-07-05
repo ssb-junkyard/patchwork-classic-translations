@@ -6,7 +6,7 @@ module.exports = {
   AddFriend: "Add to friends",
   AddFriends: "Add Friends",
   Back: "Back",
-  BringAllToFront: "Bring All to Front",
+  BringAllToFront: "Bring All to Front", // TODO relative to
   Cancel: "Cancel",
   ChosenBy: "Chosen by:",
   Close: "Close",
@@ -39,7 +39,7 @@ module.exports = {
   FriendsOfFriends: "Friends of Friends",
   FriendsOfFriendsInfo: "Potential contacts from your social network.",
   Go: "Go",
-  HideOthers: "Hide Others",
+  HideOthers: "Hide Others", // TODO relative to
   HidePatchwork: "Hide Patchwork",
   Inbox: "Inbox",
   InboxEmpty: "Your inbox is empty.",
@@ -54,9 +54,9 @@ module.exports = {
   LicenseConsole: "Patchwork - Copyright (C) %{years} Secure Scuttlebutt Consortium\nThis program comes with ABSOLUTELY NO WARRANTY.\nThis is free software, and you are welcome to redistribute it under certain conditions (GPL-3.0).",
   LicenseDialog: "This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.\n\nThis program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.\n\nYou should have received a copy of the GNU General Public License along with this program. If not, see <http://www.gnu.org/licenses/>.",
   Loading: "Loading...",
-  Local: "Local",
+  Local: "Local", // TODO relating only to "peer"s?
   LocalPeers: "Local Peers",
-  MarkAllRead: "Mark all read",
+  MarkAllRead: "Mark all read", // TODO relating only to "message"s?
   MarkAllReadConfirm: "Are you sure? Click here to confirm.",
   MarkAllReadFail: "Failed to mark all read",
   MarkAllReadHint: "Mark all messages on this page as 'read'.",
@@ -97,7 +97,7 @@ module.exports = {
   Send: "Send",
   SendMessage: "Send Message",
   ServingAt: "Serving at %{url}",
-  ShowAll: "Show All",
+  ShowAll: "Show All", // NOTE Only relating to msgs? suggestion: keeping literals relating to a particular type of thing to that thing's own named section. Some of these might not be as reusable as they first appear. Would also help with the translations (dealing w/ mandatory feminizations, conceptually, etc.)
   StartFollowing: "Start following",
   Starting: "Starting...",
   StopFollowing: "Stop following",
@@ -160,7 +160,7 @@ module.exports = {
   data: "data",
   error: {
     attaching: "Error Attaching File",
-    fetchPeers: "Failed to fetch peers list",
+    fetchPeers: "Failed to fetch peers list", // NOTE perhaps important concept words, that are also typically anglicized should get capitalized everywhere. words like "peer" and "pub", though not "zoom".
     fetchUsers: "An error occurred while fetching users",
     fetchingMessages: "Error while fetching messages",
     flagReasonRequired: "reason is required",
