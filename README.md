@@ -37,11 +37,13 @@ section/group.
 
 ## Contributing
 
-Copy [locales/en.json](locales/en.json) to a new file for your locale, and then replace all
+Copy [locales/en.js](locales/en.js) to a new file for your locale, and then replace all
 the strings on the right with localized ones. If some phrases are unclear and
 you need more context, post about it in Patchwork. If you find something
 that can't be accurately translated given the way the phrases are structured,
-let us know and we can try to fix it.
+let us know and we can try to fix it. Add your new locale file to
+[locales/index.js](locales/index.js) along with a `require` statement for
+its `moment` locale data.
 
 ## Known Issues
 
