@@ -6,7 +6,6 @@ module.exports = {
   AddFriend: "Add to friends",
   AddFriends: "Add Friends",
   Back: "Back",
-  BringAllToFront: "Bring All to Front", // TODO relative to
   Cancel: "Cancel",
   ChosenBy: "Chosen by:",
   Close: "Close",
@@ -20,8 +19,8 @@ module.exports = {
   DefaultName: "Default name (self-assigned)",
   Edit: "Edit",
   EmptyFeed: "Your feed is empty.",
-  Find: "Find",
-  Find2: "Find",
+  Find: "Find", // text on the page
+  Find2: "Find...",
   FindNext: "Find Next",
   FindPrevious: "Find Previous",
   Finish: "Finish",
@@ -38,9 +37,7 @@ module.exports = {
   FriendsInfo: "Users you follow, and who follow you back.",
   FriendsOfFriends: "Friends of Friends",
   FriendsOfFriendsInfo: "Potential contacts from your social network.",
-  Go: "Go",
-  HideOthers: "Hide Others", // TODO relative to
-  HidePatchwork: "Hide Patchwork",
+  Go: "Go", // nav menu
   Inbox: "Inbox",
   InboxEmpty: "Your inbox is empty.",
   IsFollowingYouInfo: "Is following you - they will replicate your data.",
@@ -54,16 +51,22 @@ module.exports = {
   LicenseConsole: "Patchwork - Copyright (C) %{years} Secure Scuttlebutt Consortium\nThis program comes with ABSOLUTELY NO WARRANTY.\nThis is free software, and you are welcome to redistribute it under certain conditions (GPL-3.0).",
   LicenseDialog: "This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.\n\nThis program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.\n\nYou should have received a copy of the GNU General Public License along with this program. If not, see <http://www.gnu.org/licenses/>.",
   Loading: "Loading...",
-  Local: "Local", // TODO relating only to "peer"s?
+  Local: "Local", // peers
   LocalPeers: "Local Peers",
-  MarkAllRead: "Mark all read", // TODO relating only to "message"s?
+  macApp: {
+    BringAllToFront: "Bring All to Front",
+    HideOthers: "Hide Others",
+    HidePatchwork: "Hide Patchwork",
+    ShowAll: "Show All"
+  },
+  MarkAllRead: "Mark all read", // messages in a feed view page
   MarkAllReadConfirm: "Are you sure? Click here to confirm.",
   MarkAllReadFail: "Failed to mark all read",
   MarkAllReadHint: "Mark all messages on this page as 'read'.",
   Mentioned: "Mentioned",
-  Minimize: "Minimize",
+  Minimize: "Minimize", // the window
   NameUpdated: "Name updated",
-  Nearby: "Nearby",
+  Nearby: "Nearby", // peers
   NetworkSync: "Network Sync",
   NewWindow: "New Window",
   Next: "Next",
@@ -81,23 +84,22 @@ module.exports = {
   Paste: "Paste",
   Patchwork: "Patchwork",
   PortInUse: "Error: port %{port} isn't available. Is Patchwork already running?",
-  Private: "Private",
+  Private: "Private", // messages
   ProfilePictureUpdated: "Profile picture updated",
   PubInfo: "This user is a public bot. It shares user data with peers across the globe.",
-  Public: "Public",
+  Public: "Public", // messages
   PublicKey: "Public Key",
   PublicPeers: "Public Peers",
   PublicPeersInfo: "Public Peers are just users with static addresses, which means they are easy to find. They're commonly servers which have been set up to share data.",
-  Publish: "Publish",
+  Publish: "Publish", // message
   Quit: "Quit",
   Redo: "Redo",
   Reload: "Reload",
   Search: "Search",
   SelectAll: "Select All",
-  Send: "Send",
+  Send: "Send", // message
   SendMessage: "Send Message",
   ServingAt: "Serving at %{url}",
-  ShowAll: "Show All", // NOTE Only relating to msgs? suggestion: keeping literals relating to a particular type of thing to that thing's own named section. Some of these might not be as reusable as they first appear. Would also help with the translations (dealing w/ mandatory feminizations, conceptually, etc.)
   StartFollowing: "Start following",
   Starting: "Starting...",
   StopFollowing: "Stop following",
@@ -110,8 +112,8 @@ module.exports = {
   UnwatchChannelHint: "Stop receiving updates to this channel in your inbox.",
   UseThisImage: "Use This Image",
   UseThisName: "Use This Name",
-  View: "View",
-  ViewArchived: "View Archived",
+  View: "View", // menu
+  ViewArchived: "View Archived", // messages
   WatchChannel: "Watch channel",
   WatchChannelHint: "Receive updates to this channel in your inbox.",
   Watching: "Watching",
@@ -122,7 +124,7 @@ module.exports = {
   ZoomIn: "Zoom In",
   ZoomOut: "Zoom Out",
   activeChannels: "active channels",
-  alsoKnownAs: "also known as",
+  alsoKnownAs: "also known as", // NAME also known as NAMES
   channel: "channel",
   channelList: {
     Channels: "Channels",
@@ -160,7 +162,7 @@ module.exports = {
   data: "data",
   error: {
     attaching: "Error Attaching File",
-    fetchPeers: "Failed to fetch peers list", // NOTE perhaps important concept words, that are also typically anglicized should get capitalized everywhere. words like "peer" and "pub", though not "zoom".
+    fetchPeers: "Failed to fetch peers list", // "list of peers"
     fetchUsers: "An error occurred while fetching users",
     fetchingMessages: "Error while fetching messages",
     flagReasonRequired: "reason is required",
