@@ -285,7 +285,7 @@ module.exports = {
     new: "(nova)",
     referencedIn: "discussão referida em",
     removedVote: "voto retirado",
-    thisMessage: "esta mensagem",
+    typeMessage: "\"%{type}\" mensagem",
     unfollowed: "sem seguir",
   },
   msgs: {
