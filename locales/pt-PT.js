@@ -286,6 +286,7 @@ module.exports = {
     referencedIn: "discussão referida em",
     removedVote: "voto retirado",
     thisMessage: "esta mensagem",
+    typeMessage: "\"%{type}\" mensagem",
     unfollowed: "sem seguir",
   },
   msgs: {
