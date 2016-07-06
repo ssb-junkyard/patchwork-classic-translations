@@ -286,6 +286,7 @@ module.exports = {
     referencedIn: "referenced this thread in",
     removedVote: "removed their vote for",
     thisMessage: "this message",
+    typeMessage: "\"%{type}\" message", // message of unrecognized type
     unfollowed: "unfollowed",
   },
   msgs: {
