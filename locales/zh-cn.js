@@ -249,7 +249,7 @@ module.exports = {
     File: "File an Issue",
     dismissed: "dismissed",
   },
-  lang: "English",
+  lang: "中文",
   loader: {
     LoadingError: "We're sorry! Patchwork experienced an error while loading.",
   },
