@@ -10,6 +10,7 @@ module.exports = {
   ChosenBy: "Chosen by:",
   Close: "Close",
   Compose: "Compose",
+  connectionLost: "Server connection lost. Please make sure Patchwork is running, and refresh this page.",
   Contacts: "Contacts",
   Copy: "Copy",
   Copyright: "Copyright © %{years} Secure Scuttlebutt Consortium",
