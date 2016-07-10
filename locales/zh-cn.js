@@ -131,9 +131,9 @@ module.exports = {
     Channels: "频道",
     ChannelsInfo: "频道就好比是过滤了的信息",
     ClearFilter: "删除过滤",
-    Create: "开创 %{channel}",
+    Create: "开创 #%{channel}",
     NewChannel: "新频道",
-    Open: "打开 %{channel}",
+    Open: "打开 #%{channel}",
   },
   chooseProfilePicturePrompt: "要不要选一张图片",
   composer: {

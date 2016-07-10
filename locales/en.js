@@ -131,9 +131,9 @@ module.exports = {
     Channels: "Channels",
     ChannelsInfo: "Channels are topical filters for conversations.",
     ClearFilter: "Clear filter",
-    Create: "Open %{channel}",
+    Create: "Create \"#%{channel}\"",
     NewChannel: "New Channel",
-    Open: "Open %{channel}",
+    Open: "Open \"#%{channel}\"",
   },
   chooseProfilePicturePrompt: "Would you like to choose a picture?",
   composer: {

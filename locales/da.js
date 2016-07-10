@@ -131,9 +131,9 @@ module.exports = {
     Channels: "Kanaler",
     ChannelsInfo: "Kanaler er filtre på samtaler.",
     ClearFilter: "Fjern filter",
-    Create: "Åbn %{channel}",
+    Create: "Åbn \"#%{channel}\"",
     NewChannel: "Ny kanal",
-    Open: "Åbn %{channel}",
+    Open: "Åbn \"#%{channel}\"",
   },
   chooseProfilePicturePrompt: "Vil du gerne vælge et billede?",
   composer: {
