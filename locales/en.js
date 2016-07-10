@@ -142,6 +142,7 @@ module.exports = {
     Adding: "Adding...",
     AttachmentsNotAvailable: "Attachments not available in PMs",
     ChannelPlaceholder: "Set the topic here (optional)",
+    channelNone: "none",
     NotFollowedWarning: "Warning: %{name} does not follow you, and may not receive your message.",
     Preview: "Preview",
     PublishedPost: "Your post has been published",

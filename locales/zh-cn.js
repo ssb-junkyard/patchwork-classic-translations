@@ -142,6 +142,7 @@ module.exports = {
     Adding: "添加中...",
     AttachmentsNotAvailable: "私信内不能有附件",
     ChannelPlaceholder: "设置主题 (可以不选)",
+    channelNone: "none",
     NotFollowedWarning: "Warning: %{name} does not follow you, and may not receive your message.",
     NotFollowedWarning: "提示: %{name}没有关注你, 有可能接受不到你的信息.",
     Preview: "预览",

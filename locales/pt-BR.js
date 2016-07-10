@@ -142,6 +142,7 @@ module.exports = {
     Adding: "Adicionando ...",
     AttachmentsNotAvailable: "Anexos não disponíveis em Mensagens Privadas",
     ChannelPlaceholder: "Definir o tema aqui (opcional)",
+    channelNone: "none", // en
     NotFollowedWarning: "Aviso: %{name} não o segue, e pode não receber a sua mensagem.",
     Preview: "Prever",
     PublishedPost: "O post foi publicado",
