@@ -50,6 +50,13 @@ its `moment` locale data.
 Some sentences have HTML elements in them so they are split into multiple
 phrases, in such a way that may not be desirable in some langauges. e.g. "Welcome to " / "Patchwork".
 
+## Maintaining
+
+After updating this repo, certain strings have to manually copied to Patchwork.
+These are `loading.LoadingError` and `connectionLost`. Merge changes to them
+into patchwork's `ui/loading.js` and `ui/less/layout.less`, respectively.
+*TODO: automate or fix this.*
+
 ## License
 
 Copyright (C) 2015-2016 Secure Scuttlebutt Consortium
