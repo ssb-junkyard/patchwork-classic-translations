@@ -275,7 +275,6 @@ module.exports = {
     Unflag: "Remover denúncia",
     ViewData: "Ver dados",
     ViewFull: "Ver Discussão completa",
-    ViewID: "Copiar ID",
     ViewMsg: "Ver Msg",
     authorVia: "através de",
     blocked: "bloqueado",
