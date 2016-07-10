@@ -97,6 +97,14 @@ module.exports = {
   Redo: "重来",
   Reload: "Reload",
   Search: "查",
+  search: {
+    OpenChannel: 'Open channel #%{name}',
+    OpenFile: 'Open file "%{id}"',
+    OpenMessage: 'Open message "%{id}"',
+    OpenUser: 'Open user "%{id}"',
+    SearchForReferences: 'Search for references to "%{id}"',
+    SearchMessages: 'Search messages for "%{query}"'
+  },
   SelectAll: "全选",
   Send: "发信息", // message
   SendMessage: "发信息",

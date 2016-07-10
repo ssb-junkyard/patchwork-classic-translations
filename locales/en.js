@@ -97,6 +97,14 @@ module.exports = {
   Redo: "Redo",
   Reload: "Reload",
   Search: "Search",
+  search: {
+    OpenChannel: 'Open channel #%{name}',
+    OpenFile: 'Open file "%{id}"',
+    OpenMessage: 'Open message "%{id}"',
+    OpenUser: 'Open user "%{id}"',
+    SearchForReferences: 'Search for references to "%{id}"',
+    SearchMessages: 'Search messages for "%{query}"'
+  },
   SelectAll: "Select All",
   Send: "Send", // message
   SendMessage: "Send Message",
