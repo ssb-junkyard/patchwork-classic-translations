@@ -160,7 +160,7 @@ module.exports = {
     WriteMessage: "Escreva aqui uma mensagem",
     WriteReply: "Escreva uma resposta",
     defaultFilename: "sem título",
-    preview: "prever",
+    preview: "previsão",
   },
   contact: {
     followed: "seguiu %{name}.",
