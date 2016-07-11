@@ -10,7 +10,7 @@ module.exports = {
   ChosenBy: "Valgt af:",
   Close: "Luk",
   Compose: "Skriv",
-  connectionLost: "Server connection lost. Please make sure Patchwork is running, and refresh this page.",
+  connectionLost: "Serveren har mistet forbindelsen. Venligst sikrer dig at Patchwork kører og genindlæs så siden.",
   Contacts: "Kontakter",
   Copy: "Kopier",
   Copyright: "Copyright © %{years} Secure Scuttlebutt Consortium",
@@ -150,6 +150,7 @@ module.exports = {
     Adding: "Tilføjer...",
     AttachmentsNotAvailable: "Vedhæftninger er ikke tilgængelig i private beskeder",
     ChannelPlaceholder: "Sæt overskriften her (valgfrit)",
+    channelNone: "ingen",
     NotFollowedWarning: "Advarsel: %{name} følger dig ikke, og vil muligvis ikke modtage din besked.",
     Preview: "Smugkig",
     PublishedPost: "Dit indlæg er publiceret",
@@ -294,7 +295,7 @@ module.exports = {
     referencedIn: "refererer denne tråd i ",
     removedVote: "fjern deres stemme for",
     thisMessage: "denne besked",
-    typeMessage: "%{type} besked",
+    typeMessage: "%{type} besked", // message of unrecognized type
     unfollowed: "følg ikke",
   },
   msgs: {
