@@ -98,12 +98,12 @@ module.exports = {
   Reload: "Recarregar",
   Search: "Pesquisa",
   search: {
-    OpenChannel: 'Open channel #%{name}',
-    OpenFile: 'Open file "%{id}"',
-    OpenMessage: 'Open message "%{id}"',
-    OpenUser: 'Open user "%{id}"',
-    SearchForReferences: 'Search for references to "%{id}"',
-    SearchMessages: 'Search messages for "%{query}"'
+    OpenChannel: 'Abrir canal #%{name}',
+    OpenFile: 'Abrir ficheiro "%{id}"',
+    OpenMessage: 'Abrir mensagem "%{id}"',
+    OpenUser: 'Abrir utilizador "%{id}"',
+    SearchForReferences: 'Procurar referências a "%{id}"',
+    SearchMessages: 'Procurar mensagens por "%{query}"'
   },
   SelectAll: "Selecionar Tudo",
   Send: "Enviar",
@@ -150,7 +150,7 @@ module.exports = {
     Adding: "Adicionando ...",
     AttachmentsNotAvailable: "Anexos não disponíveis em Mensagens Privadas",
     ChannelPlaceholder: "Definir o tema aqui (opcional)",
-    channelNone: "none", // en
+    channelNone: "nenhum",
     NotFollowedWarning: "Aviso: %{name} não te segue, e pode não receber a tua mensagem.",
     Preview: "Prever",
     PublishedPost: "O post foi publicado",
