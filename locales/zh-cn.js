@@ -310,7 +310,7 @@ module.exports = {
     otherUser: "其他人",// singular or plural here?
     whatToCall: "你觉得这个人应该叫什么%{them}",
   },
-  namesAndOthers: "还有%{smart_count}个其他的 |||| 还有%{smart_count}个其他的", //TODO no plural in chinese
+  namesAndOthers: "还有%{smart_count}个其他的小伙伴 |||| 还有%{smart_count}个其他的小伙伴", //TODO no plural in chinese
   newName: "新名字",
   newPic: "新图片",
   peerState: {
@@ -347,7 +347,7 @@ module.exports = {
     WatchThread: "关注该讨论",
     WatchingHint: "收件箱内会收到所有更新。再点一下停止关注。",
     WatchingThread: "关注讨论",
-    inChannel: "的频道是", //TODO backward in chinese
+    inChannel: "频道：", //TODO backward in chinese
     numOlderMessages: "%{smart_count}个老信息 |||| %{smart_count}个老信息",//TODO no plural in chinese
   },
   unsafeConfigAbort: "因为不安全的配置导致停止。加一个 --unsafe　再来运行一次。",
