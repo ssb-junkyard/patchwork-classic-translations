@@ -308,7 +308,7 @@ module.exports = {
     BadPeriodEnd: "We're sorry, names cannot end with a period.",
     RenameHelp: "You can rename anybody. It will only change for you, but other people will see the name you chose.",
     otherUser: "them",
-    whatToCall: "What would you like %{them} to be called?",
+    whatToCall: "What would you like %{them} to be called?", // singular
   },
   namesAndOthers: "and %{smart_count} other |||| and %{smart_count} others",
   newName: "new name",
