@@ -52,10 +52,8 @@ phrases, in such a way that may not be desirable in some langauges. e.g. "Welcom
 
 ## Maintaining
 
-After updating this repo, certain strings have to manually copied to Patchwork.
-These are `loading.LoadingError` and `connectionLost`. Merge changes to them
-into patchwork's `ui/loading.js` and `ui/less/layout.less`, respectively.
-*TODO: automate or fix this.*
+After updating this repo, manually copy changes to the string
+`loading.LoadingError` into Patchwork's `ui/loading.js`. *TODO: automate this*
 
 ## License
 

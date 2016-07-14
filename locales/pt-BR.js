@@ -97,6 +97,14 @@ module.exports = {
   Redo: "Refazer",
   Reload: "Recarregar",
   Search: "Pesquisa",
+  search: {
+    OpenChannel: 'Abrir canal #%{name}',
+    OpenFile: 'Abrir arquivo "%{id}"',
+    OpenMessage: 'Abrir mensagem "%{id}"',
+    OpenUser: 'Abrir usuário "%{id}"',
+    SearchForReferences: 'Procurar referências a "%{id}"',
+    SearchMessages: 'Procurar mensagens por "%{query}"'
+  },
   SelectAll: "Selecionar Tudo",
   Send: "Enviar",
   SendMessage: "Enviar Mensagem",
@@ -131,9 +139,9 @@ module.exports = {
     Channels: "Canais",
     ChannelsInfo: "Os Canais são filtros de conversa baseados em tópicos.",
     ClearFilter: "Limpar filtro",
-    Create: "Abrir %{channel}",
+    Create: "Abrir \"#%{channel}\"",
     NewChannel: "Novo Canal",
-    Open: "Abrir %{channel}",
+    Open: "Abrir \"#%{channel}\"",
   },
   chooseProfilePicturePrompt: "Quer escolher uma foto?",
   composer: {
@@ -142,6 +150,7 @@ module.exports = {
     Adding: "Adicionando ...",
     AttachmentsNotAvailable: "Anexos não disponíveis em Mensagens Privadas",
     ChannelPlaceholder: "Definir o tema aqui (opcional)",
+    channelNone: "nenhum",
     NotFollowedWarning: "Aviso: %{name} não o segue, e pode não receber a sua mensagem.",
     Preview: "Prever",
     PublishedPost: "O post foi publicado",
@@ -151,7 +160,7 @@ module.exports = {
     WriteMessage: "Escreva aqui uma mensagem",
     WriteReply: "Escreva uma resposta",
     defaultFilename: "sem título",
-    preview: "prever",
+    preview: "previsão",
   },
   contact: {
     followed: "seguiu %{name}.",

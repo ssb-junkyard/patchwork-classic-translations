@@ -97,6 +97,14 @@ module.exports = {
   Redo: "Redo",
   Reload: "Reload",
   Search: "Search",
+  search: {
+    OpenChannel: 'Open channel #%{name}',
+    OpenFile: 'Open file "%{id}"',
+    OpenMessage: 'Open message "%{id}"',
+    OpenUser: 'Open user "%{id}"',
+    SearchForReferences: 'Search for references to "%{id}"',
+    SearchMessages: 'Search messages for "%{query}"'
+  },
   SelectAll: "Select All",
   Send: "Send", // message
   SendMessage: "Send Message",
@@ -131,9 +139,9 @@ module.exports = {
     Channels: "Channels",
     ChannelsInfo: "Channels are topical filters for conversations.",
     ClearFilter: "Clear filter",
-    Create: "Open %{channel}",
+    Create: "Create \"#%{channel}\"",
     NewChannel: "New Channel",
-    Open: "Open %{channel}",
+    Open: "Open \"#%{channel}\"",
   },
   chooseProfilePicturePrompt: "Would you like to choose a picture?",
   composer: {
@@ -142,6 +150,7 @@ module.exports = {
     Adding: "Adding...",
     AttachmentsNotAvailable: "Attachments not available in PMs",
     ChannelPlaceholder: "Set the topic here (optional)",
+    channelNone: "none",
     NotFollowedWarning: "Warning: %{name} does not follow you, and may not receive your message.",
     Preview: "Preview",
     PublishedPost: "Your post has been published",
@@ -299,7 +308,7 @@ module.exports = {
     BadPeriodEnd: "We're sorry, names cannot end with a period.",
     RenameHelp: "You can rename anybody. It will only change for you, but other people will see the name you chose.",
     otherUser: "them",
-    whatToCall: "What would you like %{them} to be called?",
+    whatToCall: "What would you like %{them} to be called?", // singular
   },
   namesAndOthers: "and %{smart_count} other |||| and %{smart_count} others",
   newName: "new name",
