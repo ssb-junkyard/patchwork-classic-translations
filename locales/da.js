@@ -6,7 +6,7 @@ module.exports = {
   AddFriend: "Tilføj til venner",
   AddFriends: "Tilføj venner",
   Back: "Tilbage",
-  Cancel: "Annulér",
+  Cancel: "Annullér",
   ChosenBy: "Valgt af:",
   Close: "Luk",
   Compose: "Skriv",
