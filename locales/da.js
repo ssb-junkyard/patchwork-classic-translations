@@ -103,7 +103,7 @@ module.exports = {
     OpenMessage: 'Åbn besked "%{id}"',
     OpenUser: 'Åbn bruger "%{id}"',
     SearchForReferences: 'Søg efter referencer til "%{id}"',
-    SearchMessages: 'Søg beskeder efterr "%{query}"'
+    SearchMessages: 'Søg beskeder efter "%{query}"'
   },
   SelectAll: "Vælg alle",
   Send: "Send",
