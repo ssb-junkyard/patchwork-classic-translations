@@ -296,7 +296,7 @@ module.exports = {
     removedVote: "fjern deres stemme for",
     thisMessage: "denne besked",
     typeMessage: "%{type} besked", // message of unrecognized type
-    unfollowed: "følg ikke",
+    unfollowed: "følger ikke",
   },
   msgs: {
     NoMessages: "Ingen beskeder.",
