@@ -1,6 +1,6 @@
 module.exports = {
-  About: "A Propos",
-  AboutPatchwork: "A Propos de Patchwork",
+  About: "À Propos",
+  AboutPatchwork: "À Propos de Patchwork",
   Activity: "Activité",
   ActivityFeed: "Sujets",
   AddFriend: "Ajouter à mes amis",
@@ -10,7 +10,7 @@ module.exports = {
   ChosenBy: "Choisi par:",
   Close: "Fermer",
   Compose: "Ecrire",
-  connectionLost: "Pas de connexion avec le serveur. Assurez-vous que Patchwork en lancé, et rafraichissez cette page.",
+  connectionLost: "Pas de connexion avec le serveur. Assurez-vous que Patchwork est lancé, et rafraichissez cette page.",
   Contacts: "Contacts",
   Copy: "Copier",
   Copyright: "Copyright © %{years} Secure Scuttlebutt Consortium",
@@ -79,7 +79,7 @@ module.exports = {
   NoUnread: "Vous n'avez pas de nouveaux messages.",
   NormalSize: "Taille normale",
   NoticesHint: "Promotion des vos messages et nouveaux abonnés",
-  NoticesMenuItem: "Promotion des vos messages",
+  NoticesMenuItem: "Promotion de vos messages",
   NowFollowing: "Vous suivez maintenant %{name}",
   NumFollowers: "%{smart_count} abonnés |||| %{smart_count} abonnés",
   Paste: "Coller",
@@ -194,7 +194,7 @@ module.exports = {
   flag: {
     Abusive: "Abusif",
     FlagMsgInfo: "Le signalement cache les contenus négatifs ou non désirables. Pour quelle raison signalez vous ce message?",
-    FlagThisMsg: "Signaler c message",
+    FlagThisMsg: "Signaler ce message",
     Spam: "Spam",
   },
   flagLabel: {
@@ -239,16 +239,16 @@ module.exports = {
       unexpectedError: "Désolé, une erreur inattendue s'est produite: %{msg}"
     },
     help: {
-      codeRequired: "Le code d'invitation n'a pas été accepté. Il a peut être déjà été utilisé. Demandez à l'noeud public un nouveau code, et réessayez.",
-      connectionFailure: "L'opérateur du noeud public ne s'est pas authentifé correctement lors de la présentation de ce code d'invitation. Demandez à l'noeud public un nouveau code, et réessayez.",
+      codeRequired: "Le code d'invitation n'a pas été accepté. Il a peut être déjà été utilisé. Demandez à l'opérateur du noeud public un nouveau code, et réessayez.",
+      connectionFailure: "L'opérateur du noeud public ne s'est pas authentifé correctement lors de la présentation de ce code d'invitation. Demandez à l'opérateur du noeud public un nouveau code, et réessayez.",
       expired: "Le code d'invitation est mal utilisé ou a expiré.",
-      failedConnect: "Impossible de joindre cet noeud public. Vérifiez vore connexion, assurez vous que l'noeud public est en ligne, et réessayez.",
-      notAccepted: "Le code d'invitation est incorrect ou a expiré. Vérifiez que vous l'avez copié correctement. Si c'est la cas, demandez à l'noeud public un nouveau code, et réessayez.",
-      notFound: "Vérifiez vore connexion, assurez vous que l'noeud public est en ligne, et réessayez. Si le problème persiste, vérifiez avec l'noeud public.",
-      somethingWrong: "Le code d'invitation est incorrect. Vérifiez que vous l'avez copié correctement. Si c'est la cas, demandez à l'noeud public un nouveau code, et réessayez."
+      failedConnect: "Impossible de joindre ce noeud public. Vérifiez vore connexion, assurez vous que le noeud public est en ligne, et réessayez.",
+      notAccepted: "Le code d'invitation est incorrect ou a expiré. Vérifiez que vous l'avez copié correctement. Si c'est la cas, demandez à à l'opérateur du noeud public un nouveau code, et réessayez.",
+      notFound: "Vérifiez vore connexion, assurez vous que le noeud public est en ligne, et réessayez. Si le problème persiste, vérifiez avec à l'opérateur du noeud public.",
+      somethingWrong: "Le code d'invitation est incorrect. Vérifiez que vous l'avez copié correctement. Si c'est la cas, demandez à l'opérateur du noeud public un nouveau code, et réessayez."
     },
     q: {
-      CanCreate: "Puis-je être noeud public?",
+      CanCreate: "Puis-je être un noeud public?",
       WhatIs: "Qu'est ce qu'un code d'invitation?",
       WhereCan: "Comment obtenir un code d'invitation?"
     },
@@ -306,7 +306,7 @@ module.exports = {
   name: {
     BadNameChars: "Désolé, les noms peuvent seulement contenir des lettres de A à z et des chiffres de 0 à 9, des points, des tirets-bas et ne peuvent contenir d'espaces.",
     BadPeriodEnd: "Désolé, les noms ne peuvent pas terminer par un point.",
-    RenameHelp: "Vous pouvez renomer n'importe qui. Le nom de changera que pour vous, mais d'autre personnes pourront voir le nom que vous avez donné.",
+    RenameHelp: "Vous pouvez renommer n'importe qui. Le nom ne changera que pour vous, mais d'autre personnes pourront voir le nom que vous avez donné.",
     otherUser: "il",
     whatToCall: "Comment voulez vous qu'%{them} vous appelle?", // singular
   },
