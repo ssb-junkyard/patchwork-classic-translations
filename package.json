@@ -1,6 +1,6 @@
 {
   "name": "patchwork-translations",
-  "version": "1.5.2",
+  "version": "1.5.3",
   "description": "Localized text for Patchwork and Patchkit",
   "main": "index.js",
   "keywords": [
