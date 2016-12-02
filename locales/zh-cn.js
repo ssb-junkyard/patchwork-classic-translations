@@ -322,7 +322,7 @@ module.exports = {
     found: "在你本地WiFi上可能是新朋友",
     none: "在你WiFi上没找到人",
   },
-  private: "私",
+  private: "私人信息",
   profilePictures: "个人图片",
   pub: "公共节点",
   pubBot: "公共节点机器人",
